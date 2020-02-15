@@ -18,9 +18,11 @@ i = 0
 value1 = 0
 
 
+
    while i < array.length do
-    value1 += array[i]
-i +=1 
+    value1 = yield(array[i])
+return value1
+i +=1
    end
 
    return value1 + extra
