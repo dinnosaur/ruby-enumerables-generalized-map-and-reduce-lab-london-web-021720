@@ -15,7 +15,7 @@ end
 
 def reduce(array, extra = nil )
 if extra
-   num1 = sv
+   num1 = extra
    i =0
  else
    num1 = array[0]
