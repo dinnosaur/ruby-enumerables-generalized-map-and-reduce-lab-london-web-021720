@@ -19,9 +19,11 @@ if extra
    i =0
  else
    num1 = array[0]
-   i=0
+   i=1
  end
 while i < array.length
   yield(num1, array[i])
+i+=1
+end
 
 end
