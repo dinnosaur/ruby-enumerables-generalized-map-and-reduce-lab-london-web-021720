@@ -14,13 +14,13 @@ end
 
 
 def reduce(array, extra = 0 )
-i = 0
-value1 = 0
+i = 1
+value1 = array[0]
 
 
 
    while i < array.length do
-    value1 = yield(array[i], array[i+1])
+    value1 = yield(value1, array[i])
 
 i +=1
    end
