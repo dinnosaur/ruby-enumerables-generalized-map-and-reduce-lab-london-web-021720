@@ -25,7 +25,8 @@ value1 = array[0]
 i +=1
    end
 
-   return value1 + extra
+  total=   value1 + extra
+  return total 
 
 
 end
