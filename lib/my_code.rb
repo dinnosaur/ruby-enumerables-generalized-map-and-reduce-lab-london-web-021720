@@ -14,19 +14,14 @@ end
 
 
 def reduce(array, extra = nil )
-i = 1
-value1 = array[0]
-
-
-
-   while i < array.length do
-    value1 = yield(value1, array[i])
-
-i +=1
-   end
-
-  total =   value1 + extra
-  return total
-
+if extra
+   num1 = sv
+   i =0
+ else
+   num1 = array[0]
+   i=0
+ end
+while i < array.length
+  yield(num1, array[i])
 
 end
