@@ -22,7 +22,7 @@ if extra
    i=1
  end
 while i < array.length
-  yield(num1, array[i])
+  num1 = yield(num1, array[i])
 i+=1
 end
 
