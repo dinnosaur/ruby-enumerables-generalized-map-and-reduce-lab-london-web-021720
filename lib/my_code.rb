@@ -13,7 +13,7 @@ end
 end
 
 
-def reduce(array, extra = 0 )
+def reduce(array, extra = nil )
 i = 0
 value1 = 0
 
