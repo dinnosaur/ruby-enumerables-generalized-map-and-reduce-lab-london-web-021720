@@ -21,7 +21,7 @@ value1 = 0
 
    while i < array.length do
     value1 = yield(array[i], array[i+1])
-return value1
+
 i +=1
    end
 
